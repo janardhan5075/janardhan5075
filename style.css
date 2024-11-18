@@ -1,0 +1,258 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  clip-path: circle();
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #000 !important;
+}
+
+.banner {
+  height: 80vh;
+  background-image: url(./img/hari.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cente center;
+}
+.banner-text h1 {
+  color: coral;
+}
+.banner-text h2 {
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.source {
+  border-radius: 15px;
+  color: #000;
+}
+
+.carousel-inner {
+  text-align: start;
+  border-radius: 20px;
+  color: #ffff;
+}
+.img-animation:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.new {
+  background-image: url(./img/goa.avif);
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  background-repeat: no-repeat;
+  transition: transform 1s ease;
+  background-position: center;
+  color: black;
+}
+
+.new-1 {
+  background-image: url(./img/mumbai.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  transition: transform 1s ease;
+  background-position: center;
+}
+.new-2 {
+  background-image: url(./img/karnataka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  transition: transform 1s ease;
+  background-position: center;
+  color: #000;
+}
+.new-3 {
+  background-image: url(./img/uttarakhand.avif);
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  transition: transform 1s ease;
+  background-position: center;
+}
+.new-4 {
+  background-image: url(./img/ladakh.avif);
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  transition: transform 1s ease;
+  background-position: center;
+}
+.new-5 {
+  background-image: url(./img/taj\ mahal.avif);
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  transition: transform 1s ease;
+  background-position: center;
+}
+.places-text {
+  text-align: center;
+}
+.activity {
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: coral;
+}
+
+.activity:hover {
+  border-top: 2px solid coral;
+  border-bottom: 2px solid coral;
+  border-radius: 20px;
+}
+
+.about {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-text-h1 {
+  font-size: 2rem;
+}
+.about-text-p {
+  color: coral;
+  font-size: 20px;
+}
+.services {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.travel-card:hover {
+  transform: scale(0.9);
+  transition: 1s ease-in-out;
+  overflow: hidden;
+}
+.card {
+  border: none;
+}
+
+.travel {
+  height: 500px;
+}
+.travel-text {
+  font-size: 20px;
+  text-align: center;
+}
+.travel-text :hover {
+  color: coral;
+}
+.scenary {
+  text-align: center;
+  justify-content: center;
+}
+
+.classic {
+  height: 400px;
+  background-image: url(https://img.freepik.com/free-photo/travel-background-with-accessories-copyspace-right-side_23-2147828050.jpg?ga=GA1.1.865324906.1729773493&semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.classic-data {
+  width: 700px;
+}
+
+.up-icon {
+  right: 40px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: coral;
+  z-index: 999px;
+  bottom: 60px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.fa-arrow-up {
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.footer .footer-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-links a:hover {
+  color: coral;
+}
+
+.contact-info i {
+  color: #ffff;
+}
+
+
+.contact-info i:hover {
+  color: coral;
+}
+.list-inline i{
+  color: rgb(255, 255, 255);
+}
+
+.list-inline i:hover{
+  color: coral;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #f95300;
+  
+}
+
+.newsletter-form button {
+  background-color: #ff4800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.newsletter-form button:hover {
+  background-color: #1a0aff;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: coral;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: #ffffff;
+}
